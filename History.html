@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>History and Culture</title>
+   </head>
+<style> 
+*{
+    margin: 0;
+    padding: 0;
+scroll-behavior: smooth;
+}
+@font-face {
+    font-family: "Dongle-light";
+    src: url("Dongle/Dongle-Light.ttf");
+}
+@font-face {
+    font-family: "Dongle-regular";
+    src: url("Dongle/Dongle-Regular.ttf");
+}
+@font-face {
+    font-family: "Dongle-bold";
+    src: url("Dongle/Dongle-Bold.ttf");
+}
+
+.history{
+    font-size: 2.4rem;
+    font-family: "Dongle-bold";
+    margin: 40px 80px;
+    text-align: center;
+}
+.history h2{
+    margin-bottom: 40px;
+}
+.history-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.history-item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.history-item{
+    text-align: left;
+}
+.history-item h3{
+    font-size: 2rem;
+}
+.history-item p{
+    font-size: 1.4rem;
+    line-height: 1;
+    font-family: "Dongle-regular";
+}
+</style>
+<body>
+      <section id="history" class="history">
+        <h2>History and Culture</h2>
+        <div class="history-grid">
+          <div class="history-item">
+            <img src="images/his-1.png" alt="" />
+            <h3>Historical Events</h3>
+            <p>
+              By the 18th century, the Omani Empire stretched from present-day Oman down the east coast of Africa. A new era began in 1970 when Sultan Qaboos bin Said changed the name of the country from the Sultanate of Muscat and Oman to simply Oman.
+            </p>
+          </div>
+          <div class="history-item">
+            <img src="images/his-2.jpeg" alt="" />
+            <h3>Traditional Custom's</h3>
+            <p>
+              In Oman, traditional customs include wearing the "dishdasha" (long robe) for men and modest clothing for women, while hospitality is central with the offering of coffee and dates, often accompanied by the burning of frankincense incense as a sign of respect.  
+</p>
+          </div>
+          <div class="history-item">
+            <img src="images/his-3.jpeg" alt="" />
+            <h3>Cultural Heritage</h3>
+            <p>
+              Oman is one of the oldest and culturally richest countries in the Arab world. Since ancient times, Oman has played a crucial role in trade and the culture of its region. The Muscat Festival is a grand showcase of Omani culture, where the past meets the present in a celebration that captivates both locals and visitors alike.
+            </p>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
